@@ -292,6 +292,10 @@ function validateSubmission(submission) {
     return "Quiz answers contain an unknown result type.";
   }
 
+  if (submission.answerDetails && !Array.isArray(submission.answerDetails)) {
+    return "Answer details must be an array.";
+  }
+
   return "";
 }
 
@@ -315,7 +319,7 @@ Result: ${result.emoji} ${result.name}
 Bottleneck: ${result.bottleneck}
 
 Answers:
-${submission.answers.map((answer, index) => `Question ${index + 1}: ${answer}`).join("\n")}
+${formatInternalAnswers(submission)}
 
 Submitted at: ${submission.createdAt || new Date().toISOString()}`;
 
@@ -368,6 +372,23 @@ function buildUserEmailText(firstName, result) {
     "Candice",
     "Clever Calicco"
   ].join("\n");
+}
+
+function formatInternalAnswers(submission) {
+  if (Array.isArray(submission.answerDetails) && submission.answerDetails.length) {
+    return submission.answerDetails
+      .map((detail, index) => {
+        const question = detail.question || `Question ${index + 1}`;
+        const answer = detail.answer || submission.answers[index] || "";
+        const archetype = detail.archetype || submission.answers[index] || "";
+
+        return `Question ${index + 1}: ${question}
+Answer: ${answer}${archetype ? ` (${archetype})` : ""}`;
+      })
+      .join("\n\n");
+  }
+
+  return submission.answers.map((answer, index) => `Question ${index + 1}: ${answer}`).join("\n");
 }
 
 function buildUserEmailHtml(firstName, result) {

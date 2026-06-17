@@ -40,5 +40,11 @@ export type LeadSubmission = {
   result: Archetype;
   resultName: string;
   answers: Archetype[];
+  answerDetails: {
+    questionId: string;
+    question: string;
+    answer: string;
+    archetype: Archetype;
+  }[];
   createdAt: string;
 };

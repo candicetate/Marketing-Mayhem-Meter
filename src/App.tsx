@@ -45,11 +45,24 @@ export default function App() {
   }
 
   async function submit(values: LeadFormValues) {
+    const answerDetails = answers.map((archetype, index) => {
+      const question = questions[index];
+      const selectedAnswer = question.answers.find((answer) => answer.archetype === archetype);
+
+      return {
+        questionId: question.id,
+        question: question.question,
+        answer: selectedAnswer?.label ?? archetype,
+        archetype
+      };
+    });
+
     const submission = {
       ...values,
       result,
       resultName: results[result].name,
       answers,
+      answerDetails,
       createdAt: new Date().toISOString()
     };
 
