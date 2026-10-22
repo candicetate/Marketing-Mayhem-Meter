@@ -1,0 +1,82 @@
+[
+  {
+    "key": "C",
+    "name": "Clarity & Direction",
+    "headline": "Your marketing has a direction problem.",
+    "diagnosis": "You probably aren’t short on ideas. There’s always another campaign, platform, or shiny new tactic. But nobody has clearly decided what matters most right now, so your marketing becomes reactive.",
+    "aha": "You probably don’t need more ideas. You need better prioritization.",
+    "first": "If we could improve only ONE part of our marketing over the next 90 days, which change would have the biggest impact on the business?",
+    "note": "Not every good marketing idea deserves to happen right now. Choose your spells wisely.",
+    "looks": [
+      "Lots of ideas, but no clear marketing priorities",
+      "Starting campaigns without finishing them",
+      "Constantly changing direction",
+      "Marketing decisions based on urgency",
+      "Different channels doing different things"
+    ]
+  },
+  {
+    "key": "A",
+    "name": "Automation & Lead Nurture",
+    "headline": "People are showing interest. Then things get a little fuzzy.",
+    "diagnosis": "Your marketing is attracting interest without a reliable system for nurturing it toward a decision. Too much depends on prospects remembering you, or you remembering them.",
+    "aha": "You might not need more leads. You may need to stop losing the ones you already have.",
+    "first": "What happens after someone raises their hand?",
+    "note": "Follow the journey from inquiry, download, or subscription. Does the next step happen consistently without someone having to remember?",
+    "looks": [
+      "Leads come in but follow-up is inconsistent",
+      "Your email list exists but rarely hears from you",
+      "People download a resource and then disappear",
+      "Your CRM is basically a digital filing cabinet",
+      "Follow-up depends on someone remembering to do it"
+    ]
+  },
+  {
+    "key": "T",
+    "name": "Traffic & Trust",
+    "headline": "Your business may be excellent. The right people need to notice.",
+    "diagnosis": "Your offer works and people who know you tend to trust you. But your marketing may not consistently help new potential clients discover your business and find enough evidence to feel confident choosing you.",
+    "aha": "Being excellent at what you do and being easy to discover are two different things.",
+    "first": "If someone had never heard of us before today, would our marketing give them enough evidence to understand what we do and trust us?",
+    "note": "Look at what buyers can access right now. Not eventually. Not after six conversations.",
+    "looks": [
+      "Most new business still comes from referrals",
+      "Website traffic is lower than you’d like",
+      "Your expertise isn’t obvious online",
+      "Content is inconsistent or disconnected",
+      "Search visibility is weak"
+    ]
+  },
+  {
+    "key": "S",
+    "name": "Sales & Scale",
+    "headline": "You have attention. The problem is what happens before someone says yes.",
+    "diagnosis": "People are finding you. They may even be interested. But somewhere between interest and becoming a client, momentum is disappearing. Adding traffic to that journey can simply make the leak bigger.",
+    "aha": "More traffic will not fix a conversion problem.",
+    "first": "Walk through your customer journey as a stranger. What is the next step?",
+    "note": "Is it obvious? Does it feel easy? Do prospects have the information and proof they need to take it?",
+    "looks": [
+      "Website traffic without enough inquiries",
+      "People asking questions but not booking",
+      "Plenty of discovery calls but inconsistent conversions",
+      "Confusing offers",
+      "Weak or buried calls to action"
+    ]
+  },
+  {
+    "key": "F",
+    "name": "Founder Bottleneck",
+    "headline": "Plot twist: the bottleneck might be you.",
+    "diagnosis": "Not because you’re bad at marketing. Quite the opposite. You’ve probably kept it alive for years. But marketing still depends on you to think, decide, coordinate, approve, and keep every moving part moving.",
+    "aha": "You don’t need to care less about marketing. Marketing needs to depend on you less.",
+    "first": "If I disappeared from marketing for the next 30 days, what would stop?",
+    "note": "There’s a difference between staying involved in meaningful decisions and personally holding the whole system together.",
+    "looks": [
+      "Nothing gets published without your approval",
+      "Contractors wait for you to assign work",
+      "You generate most of the ideas",
+      "Campaigns stall when client work gets busy",
+      "You rewrite marketing copy because it doesn’t sound right"
+    ]
+  }
+]

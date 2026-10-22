@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "prompt": "Which description sounds most like your marketing right now?",
+    "weight": 1,
+    "options": [
+      {
+        "category": "C",
+        "text": "We’re doing plenty, but I’m not always confident we’re working on the right things."
+      },
+      {
+        "category": "A",
+        "text": "We get interest, but our follow-up and nurturing could be much more consistent."
+      },
+      {
+        "category": "T",
+        "text": "We do good work, but not enough of the right people are finding us or seeing what makes us different."
+      },
+      {
+        "category": "S",
+        "text": "People are finding us, but too few are taking the next step and becoming qualified inquiries or clients."
+      },
+      {
+        "category": "F",
+        "text": "Marketing gets done, but I’m still the person keeping most of it moving."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "prompt": "What usually happens to marketing when the business gets really busy?",
+    "weight": 2,
+    "options": [
+      {
+        "category": "C",
+        "text": "We become reactive and whatever feels most urgent becomes the priority."
+      },
+      {
+        "category": "A",
+        "text": "Follow-up, email, and lead nurturing become inconsistent."
+      },
+      {
+        "category": "T",
+        "text": "Content, SEO, outreach, or other visibility work slows down."
+      },
+      {
+        "category": "S",
+        "text": "We keep marketing, but rarely have time to look at what is converting and improve it."
+      },
+      {
+        "category": "F",
+        "text": "A lot of marketing slows down or stops because I no longer have time to direct it."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "prompt": "Which best describes how marketing gets planned in your business?",
+    "weight": 1,
+    "options": [
+      {
+        "category": "C",
+        "text": "We have lots of ideas, but deciding what deserves attention first is difficult."
+      },
+      {
+        "category": "A",
+        "text": "We plan ways to attract interest, but what happens after someone becomes a lead is less organized."
+      },
+      {
+        "category": "T",
+        "text": "We know we need to stay visible, but creating and distributing trust-building content consistently is a challenge."
+      },
+      {
+        "category": "S",
+        "text": "We plan marketing activity, but conversion, customer journey, and sales outcomes aren’t always part of the conversation."
+      },
+      {
+        "category": "F",
+        "text": "Most of the plan still lives in my head, and other people wait for my direction."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "prompt": "Imagine a promising potential client discovers your business today. What is most likely to get in their way?",
+    "weight": 2,
+    "options": [
+      {
+        "category": "C",
+        "text": "Our messaging, offers, or priorities aren’t always connected enough to give them one clear story."
+      },
+      {
+        "category": "A",
+        "text": "They may show interest, but what happens afterward depends too much on manual follow-up."
+      },
+      {
+        "category": "T",
+        "text": "They may not find enough useful content, proof, expertise, or visibility to build trust in the first place."
+      },
+      {
+        "category": "S",
+        "text": "They can find us and understand us, but the path to booking, inquiring, or buying has friction."
+      },
+      {
+        "category": "F",
+        "text": "Moving them forward often requires me to personally step in, respond, approve something, or tell the team what to do."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "prompt": "Which statement is closest to how you feel about your marketing performance?",
+    "weight": 1,
+    "options": [
+      {
+        "category": "C",
+        "text": "We have data and ideas, but deciding what deserves our attention next is the hard part."
+      },
+      {
+        "category": "A",
+        "text": "I don’t have a clear picture of what happens to leads between initial interest and a sales conversation."
+      },
+      {
+        "category": "T",
+        "text": "We need a stronger and more consistent flow of the right people discovering the business."
+      },
+      {
+        "category": "S",
+        "text": "We get attention or traffic, but I’m not confident enough of it turns into qualified business."
+      },
+      {
+        "category": "F",
+        "text": "Even when we have reporting or data, I’m usually the one who has to figure out what everyone should do with it."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "prompt": "Imagine your qualified website traffic doubled next month. What would most likely happen?",
+    "weight": 2,
+    "options": [
+      {
+        "category": "C",
+        "text": "More traffic would be nice, but we’d still need to decide what we’re actually trying to move people toward."
+      },
+      {
+        "category": "A",
+        "text": "We’d get more leads, but our nurture and follow-up systems probably wouldn’t keep up."
+      },
+      {
+        "category": "T",
+        "text": "That would address a major part of our current problem. We need more of the right people finding us."
+      },
+      {
+        "category": "S",
+        "text": "I’m not convinced twice the traffic would mean twice the inquiries. Something in the conversion journey still needs work."
+      },
+      {
+        "category": "F",
+        "text": "More marketing activity would probably create more things for me to monitor, approve, or coordinate."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "prompt": "Which change would feel like the biggest relief right now?",
+    "weight": 1,
+    "options": [
+      {
+        "category": "C",
+        "text": "Knowing exactly what our marketing priorities are and what we can safely ignore."
+      },
+      {
+        "category": "A",
+        "text": "Knowing leads are being followed up with and nurtured without relying on someone’s memory."
+      },
+      {
+        "category": "T",
+        "text": "Knowing the right people are consistently discovering us and seeing why they should trust us."
+      },
+      {
+        "category": "S",
+        "text": "Knowing our website and customer journey are doing a better job turning interest into real opportunities."
+      },
+      {
+        "category": "F",
+        "text": "Knowing marketing will continue moving even when I’m focused on clients, operations, or the rest of the business."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "prompt": "Who is currently responsible for making sure the whole marketing system works together?",
+    "weight": 2,
+    "options": [
+      {
+        "category": "C",
+        "text": "We have people doing pieces of marketing, but nobody clearly owns overall priorities and direction."
+      },
+      {
+        "category": "A",
+        "text": "Different people or tools handle leads and communication, but nobody fully owns the nurture and follow-up journey."
+      },
+      {
+        "category": "T",
+        "text": "Visibility work is spread across content, website, SEO, social, referrals, or other channels without one person connecting it."
+      },
+      {
+        "category": "S",
+        "text": "We have marketing activity, but nobody consistently owns conversion, customer journey, reporting, and optimization."
+      },
+      {
+        "category": "F",
+        "text": "Me. Even when other people help execute, I’m still the person ultimately connecting all the dots."
+      }
+    ]
+  }
+]

@@ -1,7 +1,14 @@
 [build]
-  command = "npm run build"
-  publish = "dist"
+  command = "node --check netlify/functions/marketing-bottleneck.mjs"
+  publish = "quiz-site"
   functions = "netlify/functions"
+
+# Temporary secure destination while the custom-domain certificate is repaired.
+[[redirects]]
+  from = "http://bottleneck.clevercalic.co/*"
+  to = "https://marketing-mayhem-meter.netlify.app/:splat"
+  status = 302
+  force = true
 
 [[redirects]]
   from = "/api/*"
